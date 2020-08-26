@@ -100,7 +100,7 @@ nav > span > a {
 }
 
 .about {
-  height: 650px;
+  height: 100vh;
 }
 .about > .title {
   text-align: left;
