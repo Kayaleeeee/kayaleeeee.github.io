@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap"
       rel="stylesheet"
@@ -19,42 +22,48 @@
     <div class="container">
       <nav>
         <div>
-          <h1>Kaya</h1>
+          <h1>Kaya Lee</h1>
         </div>
         <span>
           <a href="#header"> <h3>Home</h3></a>
-          <a href="#me"> <h3>About</h3></a>
-          <a href="#skill"> <h3>Skill
-          </h3></a>
+          <a id="about" href="#me"> <h3>About</h3></a>
+          <a href="#skillSet"> <h3>Skill</h3></a>
           <a href="#portfolio"> <h3>Portfolio</h3></a>
           <a href="#contact"> <h3>contact</h3></a>
         </span>
       </nav>
 
       <div class="wrapper">
-        <div id='header' class="header">
+        <div id="header" class="header">
           <div class="h_content">
             <h1 class="glitch">Hello,</h1>
             <h1 class="glitch">I am Kaya Lee</h1>
             <h3>A frontend developer based in Seoul, Korea</h3>
           </div>
         </div>
-        <div id ='me' class="about me">
-          <div  class="title">ABOUT ME</div>
+        <div id="me" class="about me">
+          <div class="title">
+            <h4>ABOUT ME</h4>
+          </div>
           <div class="content">
-            <div class="img">
+            <div class="profile_img_wrapper">
               <img class="profile_img" src="./img/profile.JPG" alt="" />
             </div>
             <div class="desc">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis quis, debitis provident nisi sequi dignissimos soluta
-                architecto saepe iure ratione quos at esse corporis velit quo
-                hic dolore. Excepturi, ducimus.
+                안녕하세요. 프론트엔드 개발자 이가연입니다. <br />
+                서강대학교에서 미국문화와 커뮤니케이션을 공부하고 베트남에서
+                일하던 중<br />
+                프로그래밍의 매력에 빠져 공부를 시작했습니다. <br />
+                가치있는 서비스를 만들고, 의미있는 코드를 짜는 사람이
+                되고싶습니다.<br />
+                클라우드 MSA와 UX, UI 디자인에도 관심을 갖고 공부하고 있습니다.
               </p>
+              <p></p>
+
               <div class="info">
                 <ul>
-                  <li><strong>Age</strong> 27</li>
+                  <li><b>Age</b> 27</li>
                   <li><strong>Residence</strong> Seoul, Korea</li>
                   <li><strong>Email</strong> gayeon71057@gmail.com</li>
                   <li><strong>Phone</strong> 010-5595-7105</li>
@@ -64,8 +73,10 @@
           </div>
         </div>
 
-        <div class="about coding">
-          <div id='skill' class="title">CODING SKILLS</div>
+        <div id="skillSet" class="about coding">
+          <div id="skill" class="title">
+            <h4>SKILL SET</h4>
+          </div>
           <div class="coding_content">
             <div>
               <i class="fab fa-html5"> </i>
@@ -94,36 +105,46 @@
           </div>
         </div>
 
-        <div class="about portfolio">
-          <div class="title">PORTFOLIO</div>
-          <div id='portfolio' class="portfolio_content">
+        <div id="portfolio" class="about portfolio">
+          <div class="title">
+            <h4>PORTFOLIO</h4>
+          </div>
+          <div class="portfolio_content">
             <div class="_p">
               <img src="./img/멍토피아.png" alt="" />
               <h4><b>멍토피아</b></h4>
               <h4>반려견을 위한 쇼핑몰</h4>
               <p>React MobX, JS</p>
-              <a href="https://github.com/ShimJaewook/react_project">github</a>
+              <a id="github" href="https://github.com/ShimJaewook/react_project"
+                >github</a
+              >
             </div>
             <div class="_p">
               <img class="vf" src="./img/VF_logo.png" alt="" />
               <h4><b>빈플</b></h4>
               <h4>베트남 인플루언서 광고 플랫폼</h4>
               <p>Python, Django</p>
-              <a href="https://github.com/Kayaleeeee/Vinfle_webpage">github</a>
+              <a id="github" href="https://github.com/Kayaleeeee/Vinfle_webpage"
+                >github</a
+              >
             </div>
             <div class="_p">
               <img src="./img/bali.png" alt="" />
               <h4><b>프로젝트 발리</b></h4>
               <h4>발리 여행 기록 페이지</h4>
               <p>HTML, CSS, JS</p>
-              <a href="https://github.com/Kayaleeeee/less_Bali">github</a>
+              <a id="github" href="https://github.com/Kayaleeeee/less_Bali"
+                >github</a
+              >
             </div>
           </div>
         </div>
 
-        <div  class="about contact">
-          <div class="title">CONTACT</div>
-          <div id='contact' class="contact_content">
+        <div class="about contact">
+          <div class="title">
+            <h4>CONTACT</h4>
+          </div>
+          <div id="contact" class="contact_content">
             <div class="phone">
               <span
                 ><i class="fas fa-mobile-alt"></i>
@@ -143,6 +164,8 @@
             </div>
           </div>
         </div>
+
+        <div class="blank"></div>
       </div>
 
       <footer>
@@ -153,6 +176,9 @@
           ></a>
           <a href="https://github.com/Kayaleeeee"
             ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:gayeon71057@gmail.com">
+            <i class="fas fa-envelope"></i
           ></a>
           <a href="https://soundcloud.com/hm203es1hboe"
             ><i class="fab fa-soundcloud"></i
@@ -165,4 +191,5 @@
       <div class="line right"></div>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
