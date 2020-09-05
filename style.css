@@ -4,14 +4,23 @@
 }
 a,
 h1,
-h3,
-p {
+h3 {
   font-family: "Courier Prime", monospace;
   font-weight: lighter;
   /* font-family: "Roboto Slab", serif; */
 }
 
+p {
+  font-family: "Gothic A1", sans-serif;
+  /* font-family: "Nanum Gothic", sans-serif; */
+
+  /* font-family: "Nanum Gothic", sans-serif;
+  font-weight: lighter; */
+  padding: 0.5rem;
+}
+
 h4 {
+  font-family: "Nanum Gothic", sans-serif;
   font-weight: lighter;
   padding-bottom: 0.3rem;
 }
@@ -26,14 +35,12 @@ nav a:hover {
 }
 
 ul {
-  padding: 0rem 2rem;
+  padding: 0.5rem 2rem;
   display: grid;
   grid-template-rows: repeat(2, 30px);
   grid-template-columns: repeat(2, 300px);
 }
-p {
-  padding: 0.5rem;
-}
+
 li {
   text-align: left;
   list-style: none;
@@ -67,7 +74,7 @@ nav > span {
   display: inline-flex;
 }
 nav > span > a {
-  padding: 10px;
+  padding: 15px;
 }
 
 .wrapper {
@@ -125,7 +132,7 @@ nav > span > a {
 
 .desc > p {
   text-align: left;
-  line-height: 25px;
+  line-height: 23px;
   padding-left: 2rem;
 }
 
