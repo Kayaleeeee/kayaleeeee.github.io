@@ -148,8 +148,20 @@ nav > span > a {
 
 .coding_content {
   display: inline-flex;
+  flex-direction: column;
   width: 90%;
   justify-content: space-between;
+}
+
+.coding_content h4 {
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.first_line {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-bottom: 5rem;
 }
 
 .coding_content i {
