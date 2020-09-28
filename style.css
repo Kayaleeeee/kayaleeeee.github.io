@@ -156,16 +156,19 @@ nav > span > a {
 .coding_content h4 {
   text-align: left;
   padding-bottom: 2rem;
+  font-weight: bolder;
+  color: gray;
 }
 
 .first_line {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-bottom: 5rem;
 }
 
 .coding_content i {
-  font-size: 5rem;
+  font-size: 4rem;
+  padding: 0.5rem 3rem;
 }
 .coding_content i:hover {
   color: firebrick;
